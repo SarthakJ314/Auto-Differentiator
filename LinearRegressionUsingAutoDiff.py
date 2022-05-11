@@ -2,7 +2,7 @@ from BackProp import *
 import numpy as np
 import matplotlib.pyplot as plt
 
-numP = int(input("how many random points would you like: "))
+numP = int(input("Number of random points: "))
 
 x = np.random.randint(1,11,numP)
 y = np.random.randint(1,11,numP)
