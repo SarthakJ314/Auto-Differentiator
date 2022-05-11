@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 x_s = np.linspace(-5, 5, 10000)
 
 def f(x):
-   return 2**x + sigmoid(x) #Enter Function here
+   return sin(sqrt(x)+1) / sqrt(x) #Enter Function here
 
 plot_x = []
 plot_x2 = []
