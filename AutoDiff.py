@@ -76,6 +76,9 @@ def sec(x):
 def cot(x):
     return 1 / tan(x)
 
+def sqrt(x):
+    return x**(.5)
+
 def log(x):
     return Number(np.log(x.x), "ln", x)
 
